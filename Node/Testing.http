@@ -1,0 +1,52 @@
+###
+
+GET http://localhost:3000/auth
+Content-Type: application/json
+
+
+
+
+###
+POST   http://localhost:3000/login/register
+Content-Type: application/json
+
+{
+    "name" : "UJJWAl",
+    "gender" : "M",
+    "email" : "Ujj@gmail.com",
+    "college"  : "IIT GOA",
+    "password"  :"abc123",
+    "city" : "chandigarh"
+}
+
+
+
+###
+
+
+POST  http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "email":"abc",
+    "password":"abc123"
+    
+}
+
+###
+GET http://localhost:3000/Dashboard
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVqandhbEBnbWFpbC5jb20iLCJpYXQiOjE2Mjc2NjA1NTJ9.fAkggk3TIiQL4YYzGFmEajQg8Rep6cyyQuD1xMu--dg
+
+
+###
+GET http://localhost:3000/login/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVqandhbEBnbWFpbC5jb20iLCJpYXQiOjE2Mjc2NjA1NTJ9.fAkggk3TIiQL4YYzGFmEajQg8Rep6cyyQuD1xMu--dg
+
+
+
+###
+GET http://localhost:3000/api/userinfo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVqandhbEBnbWFpbC5jb20iLCJpYXQiOjE2Mjc2NjA1NTJ9.fAkggk3TIiQL4YYzGFmEajQg8Rep6cyyQuD1xMu--dg
+
+
