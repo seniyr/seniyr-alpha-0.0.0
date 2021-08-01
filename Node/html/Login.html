@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="70641197957-nd352djh69dkqd4mhf5qj7nksd0r6tf2.apps.googleusercontent.com">
+    <link rel="stylesheet" href="static/assets/css/login.css" type="text/css" >
+    <!-- Content had the client id of the Oauth user. -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="static/assets/js/login.js"  defer ></script>
+  </head>
+  <body>
+    <div id="google-signin" class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div> 
+    <!-- dont delete this element -->
+    
+    
+
+    <textarea name="" id="servermsg" cols="30" rows="10" placeholder="Message from server appear here">
+  
+    </textarea>
+    <form id="loginform" >
+      <h2>LOGIN HERE</h2>
+      <input type="text" placeholder="EMAIL" name="email">  <br>
+      <input type="password" name="password" placeholder="ENter your password"> <br>
+      <input type="submit" name="submit" value="Submit">   <br>
+      
+    </form>
+
+
+    <hr>
+    <h2>REGISTER HERE</h2>
+    <form  id="registerform" > 
+      <!-- dont change the form id -->
+      <input type="text" placeholder="NAME" name="name"><br>
+    <input type="text" placeholder="EMAIL" name="email"><br>
+    
+    <input type="radio" name="gender" value="M"> MALE
+    <input type="radio" name="gender" value="F"> FEMALE <br>
+
+    <input type="text" placeholder="College" name="college"><br>
+    password <input type="text" name="password" placeholder="SET password"><br> 
+    <input type="text" placeholder="CITY" name="city">
+    <input type="submit" name="submit" value="SUBMIT">
+    </form>
+
+
+    <a href="/auth/gitHub">CLICK HERE TO LOGIN WITH GitHub</a>
+
+  </body>
+  
+</html>
