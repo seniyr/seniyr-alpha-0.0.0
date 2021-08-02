@@ -1,5 +1,180 @@
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
 #loginform ,#registerform{
     border: 1mm solid black;
 }
+
+        .container {
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            width: 488px;
+            height: 635px;
+            left: 673px;
+            top: 194px;
+
+            background: #FFFFFF;
+            border: 1px dashed #000000;
+            box-sizing: border-box;
+            border-radius: 50px;
+        }
+
+        .login {
+            position: absolute;
+            width: 305px;
+            height: 93px;
+            left: 88px;
+            top: -px;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 72px;
+            line-height: 98px;
+            text-align: center;
+            letter-spacing: 0.005em;
+            color: #000000;
+        }
+
+        .user {
+            position: absolute;
+            width: 199px;
+            height: 28px;
+            left: 19px;
+            top: 107px;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 33px;
+
+            color: #000000;
+        }
+
+        #det1 {
+            position: absolute;
+            width: 450px;
+            height: 77px;
+            left: 18px;
+            top: 141px;
+
+            background: #F5F5F5;
+            border-radius: 18px;
+        }
+
+        .password {
+            position: absolute;
+            width: 199px;
+            height: 28px;
+            left: 20px;
+            top: 235px;
+
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 33px;
+
+            color: #000000;
+        }
+
+        #det2 {
+            position: absolute;
+            width: 450px;
+            height: 77px;
+            left: 18px;
+            top: 270px;
+
+            background: #F5F5F5;
+            border-radius: 18px;
+        }
+
+        .button {
+            position: absolute;
+            width: 138px;
+            height: 34px;
+            left: 59px;
+            top: 15px;
+
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+        .loginbutton {
+            position: absolute;
+            width: 169px;
+            height: 64px;
+            left: 284px;
+            top: 386px;
+
+            background: #0098EE;
+            border-radius: 22px;
+        }
+
+        .break {
+            position: absolute;
+            width: 430px;
+            height: 34px;
+            left: 11px;
+            top: 478px;
+
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+
+            color: #B9B9B9;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .google {
+            position: absolute;
+            width: 82px;
+            height: 82px;
+            left: 726px;
+            top: 717px;
+            background-image: url(Google.png);
+            background-size: contain;
+
+        }
+
+
+
+        .github {
+            background-image: url(github.png);
+            background-size: contain;
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            left: 1010px;
+            top: 717px;
+        }
+
+        .linkedin {
+
+
+            position: absolute;
+            width: 82px;
+            height: 82px;
+            left: 857px;
+            top: 717 px;
+            background-image: url(Linkedin.png);
+            background-size: contain;
+
+        }
